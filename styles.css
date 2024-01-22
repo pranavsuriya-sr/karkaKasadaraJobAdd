@@ -268,3 +268,24 @@ body{
       padding-right: 5em;
     }
   }
+
+  
+  li, input{
+    font-size: 17px;
+    line-height: 30px;
+    letter-spacing: .6px;
+    margin: 10px auto;
+  }
+  input{
+    padding: 8px 10px;
+    border: none;
+    outline: none;
+    color: #2c3e50;
+    box-shadow:  0 2px 4px rgba(0,0,0, .2);
+  }
+  input:hover, input:focus{
+    box-shadow: 0 4px 6px rgba(0,0,0, .3);
+  }
+  input:focus{
+    border: 1px solid rgba(44, 62, 80, .6);
+  }
